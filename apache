@@ -1,0 +1,5 @@
+sudo nano /etc/apache2/sites-available/000-default.conf
+<VirtualHost *:80>
+    ServerName http://construindosonhsoweb.com.br/
+    Redirect permanent /http://construindosonhosweb.com.br/
+</VirtualHost>
