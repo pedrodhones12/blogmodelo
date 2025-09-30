@@ -79,6 +79,14 @@
   --bs-highlight-bg: #fff4cc;
 }
 
+.navbar-brand img {
+    height: 90px; /* ajuste a altura como preferir */
+    width: auto;
+}
+
+
+
+
 *,
 *::before,
 *::after {
