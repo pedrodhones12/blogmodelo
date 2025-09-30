@@ -79,11 +79,21 @@
   --bs-highlight-bg: #fff4cc;
 }
 
-.navbar-brand img {
-    height: 150px; /* ajuste a altura como preferir */
-    width: auto;
+/* Aumentar o tamanho da logo */
+.logo {
+    width: 300px; /* ou o tamanho desejado */
+    height: auto; /* mantém a proporção */
+    max-width: 100%; /* responsivo */
+    transform: scale(1.2); /* alternativa para aumentar */
 }
 
+/* Ou se for uma imagem de background */
+.logo-container {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 150px;
+}
 
 
 
